@@ -1,0 +1,13 @@
+{
+  "name": "url_sortner",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev":"node --watch app.js",
+    "start":"node app.js"
+  }
+}
