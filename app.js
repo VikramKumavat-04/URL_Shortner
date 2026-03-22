@@ -121,8 +121,8 @@ if (!finalUrl.startsWith("http")) {
   }
 });
 
-const port = 3002;
+const port = process.env.PORT || 3002;
 
-server.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+server.listen(port, "0.0.0.0", () => {
+  console.log(`Server running on port ${port}`);
 });
